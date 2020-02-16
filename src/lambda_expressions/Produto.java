@@ -27,5 +27,9 @@ public class Produto {
 		this.preco = preco;
 	}
 	
+	public void imprime() {
+		System.out.println(nome +" = "+preco);
+	}
+	
 	
 }
